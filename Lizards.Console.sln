@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{893DD448-96B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{36D4F041-A871-48E0-89FC-9B47E9A71383}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Picums.Console", "src\Lizards.Console\Picums.Console.csproj", "{99EF69E9-F790-4FF1-8B4F-F22109B53C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lizards.Console", "src\Lizards.Console\Lizards.Console.csproj", "{99EF69E9-F790-4FF1-8B4F-F22109B53C4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

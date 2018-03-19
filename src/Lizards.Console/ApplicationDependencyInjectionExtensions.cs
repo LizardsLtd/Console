@@ -1,16 +1,16 @@
-﻿using System;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace Picums.Console
+﻿namespace Lizards.Console
 {
+    using System;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+
     public static class ApplicationDependencyInjectionExtensions
     {
-         public static Application<TApplication> AddSingleton<TApplication, TService, TImplementation>(
-                this Application<TApplication> app)
-            where TApplication : class, IRunnable
-            where TService : class
-            where TImplementation : class, TService
+        public static Application<TApplication> AddSingleton<TApplication, TService, TImplementation>(
+               this Application<TApplication> app)
+           where TApplication : class, IRunnable
+           where TService : class
+           where TImplementation : class, TService
         {
             app.ServiceCollection.AddSingleton<TService, TImplementation>();
 
@@ -39,8 +39,8 @@ namespace Picums.Console
             app.ServiceCollection.AddSingleton<TService>(services => implementation);
 
             return app;
-        }   
-        
+        }
+
         public static Application<TApplication> AddTransient<TApplication, TService, TImplementation>(
                 this Application<TApplication> app)
             where TApplication : class, IRunnable

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Picums.Console
+namespace Lizards.Console
 {
     public static class ApplicationConfigurationExtensions
     {

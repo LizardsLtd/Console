@@ -1,4 +1,4 @@
-﻿namespace Picums.Console
+﻿namespace Lizards.Console
 {
     public interface IRunnable
     {

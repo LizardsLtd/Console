@@ -1,10 +1,10 @@
-﻿using System;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
-namespace Picums.Console
+﻿namespace Lizards.Console
 {
+    using System;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
+
     public static class ApplicationLogginExtension
     {
         public static Application<TApplication> EnableLoggerFactory<TApplication>(this Application<TApplication> app)

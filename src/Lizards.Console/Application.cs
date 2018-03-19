@@ -1,12 +1,12 @@
-﻿using System;
-using System.IO;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace Picums.Console
+﻿namespace Lizards.Console
 {
+    using System;
+    using System.IO;
+    using System.Threading;
+    using System.Threading.Tasks;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+
     public sealed class Application<TApplication>
         where TApplication : class, IRunnable
     {
